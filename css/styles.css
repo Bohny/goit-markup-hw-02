@@ -68,6 +68,10 @@ nav a:hover {
   text-decoration: underline;
 }
 
+address {
+  font-style: normal;
+}
+
 .mailpost,
 .tel {
   font-family: "Roboto", sans-serif;
