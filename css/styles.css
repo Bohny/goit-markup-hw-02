@@ -5,7 +5,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em; /* оновлено */
 }
 
 h2 {
@@ -14,7 +14,7 @@ h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em; /* оновлено */
   text-align: center;
   text-decoration: none;
 }
@@ -29,7 +29,7 @@ h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em; /* оновлено */
 }
 
 .logo {
@@ -87,7 +87,7 @@ address {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em; /* оновлено */
   text-align: left;
   text-decoration: none;
 }
@@ -103,8 +103,10 @@ ul {
 
 .section {
   background-color: #2e2f42;
-  padding: 50px 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
+
 
 .section-title {
   font-size: 56px;
@@ -123,21 +125,14 @@ ul {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  padding: 10px 20px;
-  border: none;
   transition: background-color 0.3s ease;
+  margin: 10px;
 }
 
-button:hover {
-  background-color: #404BBF;
-  color: #ffffff;
+.section-button:hover,
+.section-button:focus {
+  background-color: #404bbf;
 }
-
-button:focus {
-  background-color: #404BBF;
-  color: #ffffff; 
-}
-
 
 .section-subtitle {
   font-size: 24px;
@@ -149,16 +144,6 @@ button:focus {
   font-size: 16px;
   line-height: 1.5;
   color: #ffffff;
-}
-
-.section-button:hover,
-.section-button:focus {
-  background-color: #404bbf;
-}
-
-
-button {
-  cursor: pointer;
 }
 
 .footer-logo {
