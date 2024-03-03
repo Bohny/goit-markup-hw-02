@@ -128,25 +128,45 @@ ul {
   color: #ffffff;
 }
 
-.section-button {
-  background-color: #4d5ae5;
+.section-button,
+.section-button-title {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
   cursor: pointer;
-  transition: background-color 0.3s ease;
-  margin: 10px;
 }
 
-.section-button:hover {
-  background-color: #404bbf;
+.section-button {
+  background-color: #4D5AE5;
+  color: #ffffff; 
 }
 
+.section-button-title {
+  background-color: #2e2f42; 
+  color: #F4F4FD; 
+}
+
+.section-button:hover,
 .section-button:focus {
   background-color: #404BBF;
+}
+
+.section-button:hover .section-button-title,
+.section-button:focus .section-button-title {
+  color: #F4F4FD; 
+}
+
+
+.section-button:hover,
+.section-button:focus {
+  background-color: #404BBF;
+}
+
+.section-button:hover .section-button-title,
+.section-button:focus .section-button-title {
+  color: #F4F4FD; 
 }
 
 
