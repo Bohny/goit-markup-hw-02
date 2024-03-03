@@ -29,7 +29,7 @@ h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5;
-  letter-spacing: 0.02em; /* оновлено */
+  letter-spacing: 0.02em;
 }
 
 .logo {
@@ -141,11 +141,14 @@ ul {
   margin: 10px;
 }
 
-.section-button:hover,
-.section-button:focus {
+.section-button:hover {
   background-color: #404bbf;
-  color: #ffffff
 }
+
+.section-button:focus {
+  background-color: #404BBF;
+}
+
 
 .our-team {
   background-color: #F4F4FD;
