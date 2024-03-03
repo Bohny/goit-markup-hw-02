@@ -52,22 +52,27 @@ h3 {
   color: #2E2F42; 
 }
 
-nav {
-  font-family: "Roboto", sans-serif;
-  color: #2E2F42;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  text-align: left;
-}
-
-nav a {
+.nav-link {
+  color: #2e2f42;
   text-decoration: none;
 }
 
-nav a:hover {
-  text-decoration: underline;
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+.mailpost,
+.tel {
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.mailpost:hover,
+.mailpost:focus,
+.tel:hover,
+.tel:focus {
+  color: #404bbf;
 }
 
 address {
@@ -123,10 +128,16 @@ ul {
   transition: background-color 0.3s ease;
 }
 
-.section-button:hover,
-.section-button:focus {
-  background-color: #404bbf;
+button:hover {
+  background-color: #404BBF;
+  color: #ffffff;
 }
+
+button:focus {
+  background-color: #404BBF;
+  color: #ffffff; 
+}
+
 
 .section-subtitle {
   font-size: 24px;
