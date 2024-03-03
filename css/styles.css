@@ -170,29 +170,29 @@ ul {
   color: #F4F4FD;
 }
 
-
 .our-team {
   background-color: #F4F4FD;
   font-size: 16px;
 }
 
 .our-team-title {
-  line-height: 1.2;
+  line-height: 1.11;
   text-transform: capitalize;
   background-color: #FFFFFF;
 }
 
-.our-team li {
+.additional-info-list li {
   background-color: #FFFFFF;
 }
 
-.our-team li h3 {
-  line-height: 1.2;
+.additional-info-list li h3 {
+  line-height: 1.11;
 }
 
-.our-team li p {
+.additional-info-list li p {
   font-size: 16px;
 }
+
 
 
 .portfolio-title {
