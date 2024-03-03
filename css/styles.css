@@ -186,7 +186,7 @@ ul {
 }
 
 .additional-info-list li h3 {
-  line-height: 1.11;
+  line-height: 1.2;
 }
 
 .additional-info-list li p {
@@ -196,7 +196,7 @@ ul {
 
 
 .portfolio-title {
-  line-height: 1.2;
+  line-height: 1.11;
   text-transform: capitalize;
 }
 
