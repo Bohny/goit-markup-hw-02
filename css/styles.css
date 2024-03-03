@@ -87,7 +87,7 @@ address {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.02em; /* оновлено */
+  letter-spacing: 0.02em;
   text-align: left;
   text-decoration: none;
 }
@@ -107,6 +107,15 @@ ul {
   margin-bottom: 50px;
 }
 
+.section-subtitle {
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+.section-paragraph {
+  color: #434455;
+}
 
 .section-title {
   font-size: 56px;
@@ -132,6 +141,16 @@ ul {
 .section-button:hover,
 .section-button:focus {
   background-color: #404bbf;
+}
+
+.portfolio-title {
+  line-height: 1.11;
+  text-transform: capitalize;
+}
+
+.portfolio-subtitle {
+  line-height: 1.11;
+  letter-spacing: 0.02em;
 }
 
 .section-subtitle {
