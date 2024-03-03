@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #2E2F42;
+  color: #434455;
   background-color: #ffffff;
   font-weight: 400;
   font-size: 16px;
@@ -8,28 +8,62 @@ body {
   letter-spacing: 2%;
 }
 
-h2 {
-  font-family: "Roboto", sans-serif;
-  color: #2E2F42;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.5;
-  letter-spacing: 2%;
+.effective-solutions {
+  background-color: #2e2f42;
+}
+
+.section-title {
+  font-size: 56px;
+  line-height: 1.07;
   text-align: center;
-  text-decoration: none;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
-.our-portfolio h2:hover {
-  text-decoration: underline;
-}
-
-h3 {
+.order-service-btn {
+  background-color: #4D5AE5;
   font-family: "Roboto", sans-serif;
-  color: #2E2F42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.order-service-btn:hover,
+.order-service-btn:focus {
+  background-color: #404BBF;
+}
+
+.team-title,
+.list-title {
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.team-member-name {
+  letter-spacing: 0.02em;
+}
+
+.team-member-role,
+.list-paragraph {
+  color: #434455;
+}
+
+.section-wrapper,
+.section-list {
+  background-color: #F4F4FD;
+}
+
+.list-title {
   font-weight: 500;
   font-size: 20px;
+}
+
+.list-paragraph {
+  font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
 }
 
 .logo {
@@ -104,9 +138,8 @@ button {
 }
 
 footer .logo .web-part {
-  color:#4D5AE5
+  color: #4D5AE5;
 }
-
 
 footer .logo .studio-part {
   color: #2E2F42; 
