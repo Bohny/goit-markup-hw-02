@@ -63,7 +63,8 @@ h3 {
 }
 
 .menu {
-  font-weight: 500
+  font-weight: 500;
+  color: #434455;
 }
 
 .mailpost,
