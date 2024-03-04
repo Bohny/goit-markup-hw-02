@@ -80,21 +80,17 @@ address {
 
 .mailpost,
 .tel {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   color: #434455;
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: left;
   text-decoration: none;
 }
 
-.mailpost:hover,
+/* .mailpost:hover,
 .tel:hover {
   text-decoration: underline;
-}
+} */
 
 ul {
   list-style-type: none;
