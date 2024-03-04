@@ -67,12 +67,6 @@ h3 {
   color: #434455;
 }
 
-.mailpost,
-.tel {
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
 .mailpost:hover,
 .mailpost:focus,
 .tel:hover,
@@ -88,7 +82,7 @@ address {
 .tel {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  color: #2E2F42;
+  color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
