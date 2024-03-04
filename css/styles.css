@@ -68,7 +68,10 @@ h3 {
 }
 
 .mailpost:hover,
-.mailpost:focus,
+.mailpost:focus {
+  color: #404bbf;
+}
+
 .tel:hover,
 .tel:focus {
   color: #404bbf;
@@ -78,13 +81,20 @@ address {
   font-style: normal;
 }
 
-.mailpost,
+.mailpost {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  /* text-decoration: none; */
+}
+
 .tel {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 /* .mailpost:hover,
