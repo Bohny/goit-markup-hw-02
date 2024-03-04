@@ -48,7 +48,7 @@ h3 {
   color: #4D5AE5;
 }
 
-.studio-part {
+.studio-part-header {
   color: #2E2F42;
 }
 
@@ -222,10 +222,9 @@ ul {
   text-transform: uppercase;
 }
 
-.footer-logo .studio-part {
-  color: #F4F4FD;
+.studio-part-footer {
+  color:#F4F4FD
 }
-
 
 .footer-paragraph {
   line-height: 1.5;
